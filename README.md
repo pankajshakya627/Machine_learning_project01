@@ -45,3 +45,38 @@ To remove url from github:
 ```
 git remote -v
 ```
+
+To setup CI/CD pipeline in heroku we need 3 ingredients:
+1. HEROKU_EMAIL = adammusk3@gmail.com
+2. HEROKU_API_KEY = 313af1ef-4abb-4658-a6be-e487342ab5d8
+3. HEROKI_APP_NAME = machine-learning-project01
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be in lowercase.
+
+To list docker images:
+```
+docker images
+```
+Run the docker image:
+```
+docker run -p <port_number>:<port_number> <image_name>:<tagname>
+```
+
+To check the status of the docker image:
+```
+docker ps
+```
+
+To stop the docker image:
+```
+docker stop <container_id>
+```
+
+To remove the docker image:
+```
+docker rmi <image_name>:<tagname>
+```
