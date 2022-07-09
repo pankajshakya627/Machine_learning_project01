@@ -37,4 +37,11 @@ To create version/commit all changes by git:
 ```
 git commit -m "message"
 ```
+TO send/version changes to github:
+```
+git push origin main
+```
+To remove url from github:
+```
+git remote -v
 ```
