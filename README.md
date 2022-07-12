@@ -61,19 +61,6 @@ To list docker images:
 ```
 docker images
 ```
-Run the docker image:
-```
-docker run -p <port_number>:<port_number> <image_name>:<tagname>
-```
-
-To check the status of the docker image:
-```
-docker ps
-```
-
-To stop the docker image:
-```
-docker stop <container_id>
 ```
 
 To remove the docker image:
