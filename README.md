@@ -80,3 +80,21 @@ To remove the docker image:
 ```
 docker rmi <image_name>:<tagname>
 ```
+To list the docker images:
+```
+docker images
+```
+Run the docker image:
+```
+docker run -p <port_number>:<port_number> <image_name>:<tagname>
+docker run -p 5000:5000 -e PORT=5000 image_id
+```
+To check the status of the docker image:
+```
+docker ps
+```
+
+To stop the docker container:
+```
+docker stop <container_id>
+``` 
