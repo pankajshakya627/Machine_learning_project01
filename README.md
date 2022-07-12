@@ -61,7 +61,6 @@ To list docker images:
 ```
 docker images
 ```
-```
 
 To remove the docker image:
 ```
