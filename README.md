@@ -47,8 +47,8 @@ git remote -v
 ```
 
 To setup CI/CD pipeline in heroku we need 3 ingredients:
-1. HEROKU_EMAIL = adammusk3@gmail.com
-2. HEROKU_API_KEY = 313af1ef-4abb-4658-a6be-e487342ab5d8
+1. Mail id of the user
+2. HEROKU_API_KEY =  13af1ef-4abb-4658-a6be-e487342ab5d8
 3. HEROKI_APP_NAME = machine-learning-project01
 
 BUILD DOCKER IMAGE
@@ -66,10 +66,6 @@ To remove the docker image:
 ```
 docker rmi <image_name>:<tagname>
 ```
-To list the docker images:
-```
-docker images
-```
 Run the docker image:
 ```
 docker run -p <port_number>:<port_number> <image_name>:<tagname>
@@ -84,3 +80,7 @@ To stop the docker container:
 ```
 docker stop <container_id>
 ``` 
+
+```
+python setup.py install
+```
