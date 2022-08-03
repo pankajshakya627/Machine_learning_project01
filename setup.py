@@ -3,7 +3,7 @@ from typing import List
 
 REQUIREMENT_FILE = 'requirements.txt'
 PROJECT_NAME = "house-price-pridictor"
-VIRSION = "0.0.3"
+VIRSION = "0.0.4"
 AUTHOR = "Pankaj"
 DESCRIPTION = "House Price Predictor using Machine Learning"
 PACKAGES = ['housing']
