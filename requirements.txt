@@ -1,5 +1,5 @@
 Flask
 gunicorn
-skleran
+sklearn
 pandas
-numpy
+-e .
